@@ -70,7 +70,7 @@ OV7670 카메라로 초록색 마커를 추적하고, 허공에 그린 궤적을
 | [SPI](https://github.com/Bourrasque-21/SPI) | SPI 통신 컨트롤러 설계 및 검증 |
 | [UART](https://github.com/Bourrasque-21/UART) | UART 송수신 모듈 설계 및 검증 |
 | [RAM](https://github.com/Bourrasque-21/RAM) | RAM 설계 및 검증 |
-| [Digital System](https://github.com/Bourrasque-21/DIGITAL_SYS) | Verilog 기반 디지털 시스템 설계 |
+| [Digital System](https://github.com/Bourrasque-21/DIGITAL_SYS) | Stopwatch/Clock, SR04, DHT11, 7-Segment를 통합한 멀티모드 센서 시스템 및 UART ASCII 명령 기반 PC 제어·Watchdog Timer 구현 |
 
 <p align="center">
   <a href="https://github.com/Bourrasque-21?tab=repositories">View all repositories →</a>
