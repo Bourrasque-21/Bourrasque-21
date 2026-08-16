@@ -29,6 +29,16 @@
 
 ## Featured Projects
 
+### [AES-256-GCM & Rolling-Shutter OCC](https://github.com/Bourrasque-21/aes256-gcm-occ)
+
+AES-256-GCM 암호화 코어와 Rolling-Shutter OCC 광통신을 결합해 보안 영상 스트림을 구현한 FPGA 프로젝트입니다.
+
+- SystemVerilog · Vivado · Basys 3 · OV7670 · AXI4-Stream
+- 128비트 AXI4-Stream 기반 [AES-256-GCM Block-Parallel Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core) 설계
+- AES와 GHASH의 중첩 실행 및 NIST AES-256 KAT 405개 통과
+- Basys 3 두 대와 OV7670을 활용한 [Rolling-Shutter OCC 송수신기](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC) 구현
+- OOK·Manchester 광통신과 자격증명·CRC 검증 적용
+
 ### [VGA Air Drawing](https://github.com/Bourrasque-21/VGA_AIR_DRAWING)
 
 OV7670 카메라로 초록색 마커를 추적하고, 허공에 그린 궤적을 FPGA에서 실시간 합성하는 시스템입니다.
@@ -37,13 +47,6 @@ OV7670 카메라로 초록색 마커를 추적하고, 허공에 그린 궤적을
 - Basys 3 FPGA, OV7670 카메라, VGA 및 UART 연동
 - 64라인 링버퍼 구조로 영상 메모리를 줄이고 640×480 화면 구현
 - FPGA 영상처리와 Python UI를 결합한 하드웨어·소프트웨어 통합 프로젝트
-
-### [AES-256-GCM & Rolling-Shutter OCC](https://github.com/Bourrasque-21/aes256-gcm-occ)
-
-보안 하드웨어와 광통신을 주제로 구현한 두 개의 FPGA 설계입니다.
-
-- [AES-256-GCM Block-Parallel Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core): 128비트 AXI4-Stream TX/RX, AES·GHASH 중첩 실행, NIST AES-256 KAT 405개 통과
-- [Rolling-Shutter OCC v3](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC): Basys3 2대와 OV7670 기반 OOK/Manchester 광통신, 자격증명·CRC 검증
 
 ### [RISC-V RV32I MCU](https://github.com/Bourrasque-21/RV32I_mcu)
 
