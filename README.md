@@ -23,6 +23,8 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/RISC--V-283272?style=flat-square&logo=riscv&logoColor=white" alt="RISC-V" />
   <img src="https://img.shields.io/badge/UVM-6A5ACD?style=flat-square" alt="UVM" />
+  <img src="https://img.shields.io/badge/Synopsys%20VCS-7B1FA2?style=flat-square" alt="Synopsys VCS" />
+  <img src="https://img.shields.io/badge/Verdi-00897B?style=flat-square" alt="Verdi" />
   <img src="https://img.shields.io/badge/FPGA-E34F26?style=flat-square" alt="FPGA" />
   <img src="https://img.shields.io/badge/Xilinx%20Vivado-E01F27?style=flat-square" alt="Xilinx Vivado" />
 </p>
