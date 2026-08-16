@@ -38,6 +38,13 @@ OV7670 카메라로 초록색 마커를 추적하고, 허공에 그린 궤적을
 - 64라인 링버퍼 구조로 영상 메모리를 줄이고 640×480 화면 구현
 - FPGA 영상처리와 Python UI를 결합한 하드웨어·소프트웨어 통합 프로젝트
 
+### [AES-256-GCM & Rolling-Shutter OCC](https://github.com/Bourrasque-21/aes256-gcm-occ)
+
+보안 하드웨어와 광통신을 주제로 구현한 두 개의 FPGA 설계입니다.
+
+- [AES-256-GCM Block-Parallel Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core): 128비트 AXI4-Stream TX/RX, AES·GHASH 중첩 실행, NIST AES-256 KAT 405개 통과
+- [Rolling-Shutter OCC v3](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC): Basys3 2대와 OV7670 기반 OOK/Manchester 광통신, 자격증명·CRC 검증
+
 ### [RISC-V RV32I MCU](https://github.com/Bourrasque-21/RV32I_mcu)
 
 싱글사이클 RV32I CPU 설계를 기반으로 멀티사이클 구조까지 확장하고, 메모리와 APB 주변장치를 하나의 MCU 형태로 통합한 프로젝트입니다.
@@ -61,6 +68,8 @@ OV7670 카메라로 초록색 마커를 추적하고, 허공에 그린 궤적을
 | Project | Description |
 | --- | --- |
 | [VGA Air Drawing](https://github.com/Bourrasque-21/VGA_AIR_DRAWING) | FPGA 기반 실시간 영상처리 및 에어 드로잉 시스템 |
+| [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core) | 128비트 AXI4-Stream 기반 AES-256-GCM TX/RX RTL 및 NIST KAT 검증 |
+| [Rolling-Shutter OCC v3](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC) | Basys3·OV7670 기반 OOK/Manchester 광통신 송수신 설계 |
 | [RISC-V RV32I MCU](https://github.com/Bourrasque-21/RV32I_mcu) | 싱글사이클·멀티사이클 RV32I 기반 MCU/SoC 설계 |
 | [Driver Monitoring System](https://github.com/Bourrasque-21/driver_monitoring_system) | 눈 상태·위치 분석 머신러닝 및 배포 파이프라인 |
 | [Piano to Score](https://github.com/Bourrasque-21/piano_to_score) | 피아노 오디오 자동 악보화 연구 아카이브 |
