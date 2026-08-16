@@ -20,6 +20,7 @@
 <p>
   <img src="https://img.shields.io/badge/SystemVerilog-5C2D91?style=flat-square" alt="SystemVerilog" />
   <img src="https://img.shields.io/badge/Verilog-2F74C0?style=flat-square" alt="Verilog" />
+  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/RISC--V-283272?style=flat-square&logo=riscv&logoColor=white" alt="RISC-V" />
   <img src="https://img.shields.io/badge/UVM-6A5ACD?style=flat-square" alt="UVM" />
