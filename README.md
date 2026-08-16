@@ -34,7 +34,7 @@
 AES-256-GCM 암호화 코어와 Rolling-Shutter OCC 광통신을 결합해 보안 영상 스트림을 구현한 FPGA 프로젝트입니다.
 
 - SystemVerilog · Vivado
-- Zybo Z7-20, NVIDIA Jetson Orin Nano, pCAM, Basys 3 및 OV7670 활용
+- Zybo Z7-20, NVIDIA Jetson Orin Nano, Pcam 5C, Basys 3 및 OV7670 활용
 - [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core)의 TX/RX RTL 설계
 - AES와 GHASH의 중첩 실행 및 NIST AES-256 KAT 405개 통과
 - Basys 3 두 대와 OV7670을 활용한 [Rolling-Shutter OCC 송수신기](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC) 구현
