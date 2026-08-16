@@ -33,8 +33,8 @@
 
 AES-256-GCM 암호화 코어와 Rolling-Shutter OCC 광통신을 결합해 보안 영상 스트림을 구현한 FPGA 프로젝트입니다.
 
-- SystemVerilog · Vivado · Basys 3 · OV7670 · AXI4-Stream
-- 128비트 AXI4-Stream 기반 [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core) 설계
+- SystemVerilog · Vivado · Basys 3 · OV7670
+- [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core)의 TX/RX RTL 설계
 - AES와 GHASH의 중첩 실행 및 NIST AES-256 KAT 405개 통과
 - Basys 3 두 대와 OV7670을 활용한 [Rolling-Shutter OCC 송수신기](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC) 구현
 - OOK·Manchester 광통신과 자격증명·CRC 검증 적용
@@ -71,7 +71,7 @@ OV7670 카메라로 초록색 마커를 추적하고, 허공에 그린 궤적을
 | Project | Description |
 | --- | --- |
 | [VGA Air Drawing](https://github.com/Bourrasque-21/VGA_AIR_DRAWING) | FPGA 기반 실시간 영상처리 및 에어 드로잉 시스템 |
-| [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core) | 128비트 AXI4-Stream 기반 AES-256-GCM TX/RX RTL 및 NIST KAT 검증 |
+| [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core) | AES-256-GCM TX/RX RTL 설계 및 NIST KAT 검증 |
 | [Rolling-Shutter OCC](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC) | Basys3·OV7670 기반 OOK/Manchester 광통신 송수신 설계 |
 | [RISC-V RV32I MCU](https://github.com/Bourrasque-21/RV32I_mcu) | 싱글사이클·멀티사이클 RV32I CPU와 APB 주변장치를 통합한 MCU/SoC 설계 |
 | [Driver Monitoring System](https://github.com/Bourrasque-21/driver_monitoring_system) | 눈 상태·위치 분석 머신러닝 및 배포 파이프라인 |
