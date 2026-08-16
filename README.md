@@ -78,8 +78,8 @@ OV7670 카메라로 초록색 마커를 추적하고, 허공에 그린 궤적을
 | [Piano to Score](https://github.com/Bourrasque-21/piano_to_score) | 피아노 오디오 자동 악보화 연구 아카이브 |
 | [AES128 SoC System](https://github.com/Bourrasque-21/AES128-soc-system) | AES-128 SoC 설계 |
 | [RV32I Single-Cycle](https://github.com/Bourrasque-21/RV32I_mcu/tree/main/single_cycle) | 싱글사이클 RV32I CPU RTL 설계 |
-| [I2C](https://github.com/Bourrasque-21/I2C) | I2C 통신 컨트롤러 설계 및 검증 |
-| [SPI](https://github.com/Bourrasque-21/SPI) | SPI 통신 컨트롤러 설계 및 검증 |
+| [I2C](https://github.com/Bourrasque-21/I2C) | I2C Master/Slave 및 AXI4-Lite 기반 I2C Master 설계·검증 |
+| [SPI](https://github.com/Bourrasque-21/SPI) | SPI Master/Slave 및 AXI4-Lite 기반 SPI Master 설계·검증 |
 | [UART](https://github.com/Bourrasque-21/UART) | UART 송수신 모듈 설계 및 검증 |
 | [RAM](https://github.com/Bourrasque-21/RAM) | RAM 설계 및 검증 |
 | [Digital System](https://github.com/Bourrasque-21/DIGITAL_SYS) | Stopwatch/Clock, SR04, DHT11, 7-Segment를 통합한 멀티모드 센서 시스템 및 UART ASCII 명령 기반 PC 제어·Watchdog Timer 구현 |
