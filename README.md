@@ -56,20 +56,16 @@ OV7670 카메라로 초록색 마커를 추적하고, 허공에 그린 궤적을
 - 회전 증강 기반 미세조정과 눈 위치 탐지
 - ONNX 모델 변환 및 TensorRT 벤치마크
 
-### [Piano to Score](https://github.com/Bourrasque-21/piano_to_score)
-
-피아노 오디오를 MIDI와 MusicXML 악보로 변환하기 위해 전사, 박자 분석, 리듬 양자화 및 성부 분리를 실험한 연구 아카이브입니다.
-
-- 오디오 전사부터 악보 출력까지의 전체 파이프라인 설계
-- 규칙 기반 양자화와 Bi-LSTM 리듬 모델 비교
-- 실험 결과와 한계, 중단 이유까지 기록한 프로젝트
-
-## RTL & Verification Projects
+## Project Index
 
 | Project | Description |
 | --- | --- |
-| [AES128 SoC System](https://github.com/Bourrasque-21/AES128-soc-system) | AES-128 기반 SoC 설계 프로젝트 |
-| [RISC-V](https://github.com/Bourrasque-21/RISC-V) | 싱글사이클 RV32I CPU RTL 설계 |
+| [VGA Air Drawing](https://github.com/Bourrasque-21/VGA_AIR_DRAWING) | FPGA 기반 실시간 영상처리 및 에어 드로잉 시스템 |
+| [RISC-V RV32I MCU](https://github.com/Bourrasque-21/RV32I_mcu) | 싱글사이클·멀티사이클 RV32I 기반 MCU/SoC 설계 |
+| [Driver Monitoring System](https://github.com/Bourrasque-21/driver_monitoring_system) | 눈 상태·위치 분석 머신러닝 및 배포 파이프라인 |
+| [Piano to Score](https://github.com/Bourrasque-21/piano_to_score) | 피아노 오디오 자동 악보화 연구 아카이브 |
+| [AES128 SoC System](https://github.com/Bourrasque-21/AES128-soc-system) | AES-128 SoC 설계 |
+| [RV32I Single-Cycle](https://github.com/Bourrasque-21/RV32I_mcu/tree/main/single_cycle) | 싱글사이클 RV32I CPU RTL 설계 |
 | [I2C](https://github.com/Bourrasque-21/I2C) | I2C 통신 컨트롤러 설계 및 검증 |
 | [SPI](https://github.com/Bourrasque-21/SPI) | SPI 통신 컨트롤러 설계 및 검증 |
 | [UART](https://github.com/Bourrasque-21/UART) | UART 송수신 모듈 설계 및 검증 |
@@ -79,3 +75,4 @@ OV7670 카메라로 초록색 마커를 추적하고, 허공에 그린 궤적을
 <p align="center">
   <a href="https://github.com/Bourrasque-21?tab=repositories">View all repositories →</a>
 </p>
+
