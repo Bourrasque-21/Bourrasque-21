@@ -20,7 +20,6 @@
 - **HDL / Programming:** Verilog, SystemVerilog, VHDL, C, Python
 - **Design / Implementation:** Vivado, Vitis IDE, PSpice, Cadence Virtuoso
 - **Verification:** UVM, Synopsys VCS, Verdi
-- **Architecture / Platform:** FPGA, RISC-V, MicroBlaze
 
 ## Featured Projects
 
