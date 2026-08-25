@@ -75,7 +75,7 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 - MMIO 방식의 GPIO, UART, FND Peripheral 구성
 - Basys 3 보드에서 동작하도록 설계한 SystemVerilog SoC
 
-### [Driver Monitoring System](https://github.com/Bourrasque-21/driver_monitoring_system)
+### [Driver Monitoring System](https://github.com/Bourrasque-21/Monitor-drowsy-driving)
 
 운전자의 눈 위치와 눈 상태를 분석하기 위한 비전 모델을 설계하고, 하이퍼파라미터 최적화를 통해 최종 모델을 선정한 프로젝트입니다.
 
@@ -92,7 +92,7 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 | [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core) | AES-256-GCM TX/RX RTL 설계 및 NIST KAT 검증 |
 | [Rolling-Shutter OCC](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC) | Basys3·OV7670 기반 OOK/Manchester 광통신 송수신 설계 |
 | [RISC-V RV32I MCU](https://github.com/Bourrasque-21/RV32I_mcu) | RV32I Multi-cycle CPU와 APB Master 설계, MMIO 방식 Peripheral 구성 |
-| [Driver Monitoring System](https://github.com/Bourrasque-21/driver_monitoring_system) | YOLOv8n 눈 위치 탐지 및 TPE 기반 눈 상태 분류 모델 최적화 |
+| [Driver Monitoring System](https://github.com/Bourrasque-21/Monitor-drowsy-driving) | YOLOv8n 눈 위치 탐지 및 TPE 기반 눈 상태 분류 모델 최적화 |
 | [Piano to Score](https://github.com/Bourrasque-21/piano_to_score) | 피아노 오디오의 note event·박자 추출, 리듬 양자화 및 MusicXML/PDF 렌더링을 연결한 Python/ML 자동 악보화 파이프라인 |
 | [AES128 SoC System](https://github.com/Bourrasque-21/AES128-soc-system) | AES-128 SoC 설계 |
 | [RV32I Single-Cycle](https://github.com/Bourrasque-21/RV32I_mcu/tree/main/single_cycle) | 싱글사이클 RV32I CPU RTL 설계 |
