@@ -1,12 +1,8 @@
-<h1 align="center">하지훈 | Ha Ji Hoon</h1>
+# 하지훈 | Ha Ji Hoon
 
-<p align="center">
-  FPGA · RTL Design · Design Verification
-</p>
+**FPGA · RTL Design · Design Verification**
 
-<p align="center">
-  SystemVerilog RTL 설계 · UVM 기반 검증 · FPGA/SoC 시스템 통합
-</p>
+SystemVerilog RTL 설계 · UVM 기반 검증 · FPGA/SoC 시스템 통합
 
 ## Core Competencies
 
