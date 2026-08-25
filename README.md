@@ -17,9 +17,32 @@
 
 ## Tech Stack
 
-- **HDL / Programming:** Verilog, SystemVerilog, VHDL, C, Python
-- **Design / Implementation:** Vivado, Vitis IDE, PSpice, Cadence Virtuoso
-- **Verification:** UVM, Synopsys VCS, Verdi
+**HDL / Programming**
+
+<p>
+  <img src="https://img.shields.io/badge/Verilog-2F74C0?style=flat-square" alt="Verilog" />
+  <img src="https://img.shields.io/badge/SystemVerilog-5C2D91?style=flat-square" alt="SystemVerilog" />
+  <img src="https://img.shields.io/badge/VHDL-A9157E?style=flat-square" alt="VHDL" />
+  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
+
+**Design / Implementation**
+
+<p>
+  <img src="https://img.shields.io/badge/Vivado-E01F27?style=flat-square" alt="Vivado" />
+  <img src="https://img.shields.io/badge/Vitis%20IDE-ED1C24?style=flat-square" alt="Vitis IDE" />
+  <img src="https://img.shields.io/badge/PSpice-CC0000?style=flat-square" alt="PSpice" />
+  <img src="https://img.shields.io/badge/Cadence%20Virtuoso-8B0000?style=flat-square" alt="Cadence Virtuoso" />
+</p>
+
+**Verification**
+
+<p>
+  <img src="https://img.shields.io/badge/UVM-6A5ACD?style=flat-square" alt="UVM" />
+  <img src="https://img.shields.io/badge/Synopsys%20VCS-7B1FA2?style=flat-square" alt="Synopsys VCS" />
+  <img src="https://img.shields.io/badge/Verdi-00897B?style=flat-square" alt="Verdi" />
+</p>
 
 ## Featured Projects
 
