@@ -60,8 +60,11 @@ OV7670 카메라로 초록색 마커를 추적하고, 허공에 그린 궤적을
 
 - SystemVerilog · Python · Vivado · UVM
 - Basys 3 FPGA, OV7670 카메라, VGA 및 UART 연동
-- 64라인 링버퍼 구조로 영상 메모리를 줄이고 640×480 화면 구현
-- FPGA 영상처리와 Python UI를 결합한 하드웨어·소프트웨어 통합 프로젝트
+- RGB 채널 우세도·3픽셀 연속 조건으로 초록색 후보를 필터링하고, 센트로이드·5프레임 이동평균으로 마커 좌표 안정화
+- Bresenham 선 보간과 브러시 마스크 렌더링을 적용해 끊김 없는 궤적을 생성하고 카메라 영상과 실시간 합성
+- 640×64 RGB444 라인 링버퍼로 BRAM 사용률을 96%에서 72%로 줄이고, PC에서 640×480 영상을 약 28–29 fps로 재조립
+- VGA·UART와 Python UI를 연동해 도구 설정, 결과 표시 및 이미지 저장 기능 구현
+- 마커 좌표·Bresenham·브러시·UART 제어 모듈에 대한 UVM random·boundary 검증
 
 ### [RISC-V RV32I MCU](https://github.com/Bourrasque-21/RV32I_mcu)
 
@@ -86,7 +89,7 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 | Project | Description |
 | --- | --- |
 | [FPGA AES-256-GCM Security System](https://github.com/Rheinluft/AES256-GCM-Security-System) | OCC 자격증명, FPGA 영상 기밀성 보호, Jetson MITM 공격 및 RX 무결성 검증·차단을 통합한 팀 프로젝트 |
-| [VGA Air Drawing](https://github.com/Bourrasque-21/VGA_AIR_DRAWING) | FPGA 기반 실시간 영상처리 및 에어 드로잉 팀 프로젝트 |
+| [VGA Air Drawing](https://github.com/Bourrasque-21/VGA_AIR_DRAWING) | 초록색 마커 추적, Bresenham 선 보간 및 라인 링버퍼 기반 FPGA 실시간 에어 드로잉 팀 프로젝트 |
 | [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core) | AES-256-GCM TX/RX RTL 설계 및 NIST KAT 검증 |
 | [Rolling-Shutter OCC](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC) | Basys3·OV7670 기반 OOK/Manchester 광통신 송수신 설계 |
 | [RISC-V RV32I MCU](https://github.com/Bourrasque-21/RV32I_mcu) | RV32I Multi-cycle CPU와 APB Master 설계, MMIO 방식 Peripheral 구성 |
