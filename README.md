@@ -56,7 +56,7 @@ Rolling-Shutter OCC 자격증명 전달부터 FPGA 영상 기밀성 보호, Jets
 
 ### [VGA Air Drawing](https://github.com/Bourrasque-21/VGA_AIR_DRAWING)
 
-OV7670 카메라로 초록색 마커를 추적하고, 허공에 그린 궤적을 FPGA에서 실시간 합성하는 시스템입니다.
+OV7670 카메라로 초록색 마커를 추적하고, 허공에 그린 궤적을 FPGA에서 실시간 합성하는 시스템을 구현한 팀 프로젝트입니다.
 
 - SystemVerilog · Python · Vivado · UVM
 - Basys 3 FPGA, OV7670 카메라, VGA 및 UART 연동
@@ -86,7 +86,7 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 | Project | Description |
 | --- | --- |
 | [FPGA AES-256-GCM Security System](https://github.com/Rheinluft/AES256-GCM-Security-System) | OCC 자격증명, FPGA 영상 기밀성 보호, Jetson MITM 공격 및 RX 무결성 검증·차단을 통합한 팀 프로젝트 |
-| [VGA Air Drawing](https://github.com/Bourrasque-21/VGA_AIR_DRAWING) | FPGA 기반 실시간 영상처리 및 에어 드로잉 시스템 |
+| [VGA Air Drawing](https://github.com/Bourrasque-21/VGA_AIR_DRAWING) | FPGA 기반 실시간 영상처리 및 에어 드로잉 팀 프로젝트 |
 | [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core) | AES-256-GCM TX/RX RTL 설계 및 NIST KAT 검증 |
 | [Rolling-Shutter OCC](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC) | Basys3·OV7670 기반 OOK/Manchester 광통신 송수신 설계 |
 | [RISC-V RV32I MCU](https://github.com/Bourrasque-21/RV32I_mcu) | RV32I Multi-cycle CPU와 APB Master 설계, MMIO 방식 Peripheral 구성 |
