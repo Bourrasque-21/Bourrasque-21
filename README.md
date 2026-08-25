@@ -106,7 +106,7 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 - **최종 프로젝트 경진대회 최우수상** — 대한상공회의소 서울기술교육센터, 2026.08
   - [AES 기반 암호화 엔진 및 실시간 보안 영상 전송 시스템](https://github.com/Rheinluft/AES256-GCM-Security-System)
 - **우수 리포트 공모전 장려상** — 홍익대학교, 2018.06
-  - 「빅데이터 기대효과와 위험성」: 빅데이터 활용 사례와 기대 효과, 잠재적 위험 및 개선 방안 분석
+  - 「빅데이터의 기대효과와 위험성」: 빅데이터 활용 사례와 기대 효과, 잠재적 위험 및 개선 방안 분석
 
 ## Project Index
 
