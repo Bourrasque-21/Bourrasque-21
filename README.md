@@ -8,14 +8,14 @@
   SystemVerilog RTL 설계 · UVM 기반 검증 · FPGA/SoC 시스템 통합
 </p>
 
-## About Me
+## Core Competencies
 
 - SystemVerilog 기반 합성 가능한 RTL 설계 및 FPGA 구현
 - UVM 검증 환경 구축과 Synopsys VCS/Verdi 기반 기능 검증
 - RV32I CPU, APB Master 및 AXI4-Lite Peripheral을 포함한 SoC 설계
 - 영상처리·통신·암호화 모듈의 FPGA 시스템 통합 및 보드 검증
 
-## Tech Stack
+## Technical Skills
 
 **HDL / Programming**
 
