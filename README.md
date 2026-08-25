@@ -1,19 +1,19 @@
 <h1 align="center">하지훈 | Ha Ji Hoon</h1>
 
 <p align="center">
-  FPGA · Digital Logic · Embedded System
+  FPGA · RTL Design · Design Verification
 </p>
 
 <p align="center">
-  SystemVerilog 기반 RTL 설계·검증 · RISC-V SoC · FPGA 영상처리 프로젝트
+  SystemVerilog RTL 설계 · UVM 기반 검증 · FPGA/SoC 시스템 통합
 </p>
 
 ## About Me
 
-- SystemVerilog 기반의 RTL 설계 및 UVM 검증
-- RISC-V CPU, APB 버스 및 주변장치를 포함한 SoC 구현
-- FPGA 기반 실시간 영상처리와 하드웨어·소프트웨어 통합
-- Python을 활용한 디바이스 UI와 머신러닝 실험
+- SystemVerilog 기반 합성 가능한 RTL 설계 및 FPGA 구현
+- UVM 검증 환경 구축과 Synopsys VCS/Verdi 기반 기능 검증
+- RV32I CPU, APB Master 및 AXI4-Lite Peripheral을 포함한 SoC 설계
+- 영상처리·통신·암호화 모듈의 FPGA 시스템 통합 및 보드 검증
 
 ## Tech Stack
 
