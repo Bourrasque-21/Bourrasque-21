@@ -8,6 +8,7 @@ SystemVerilog RTL 설계 · UVM 기반 검증 · FPGA/SoC 시스템 통합
 
 - SystemVerilog 기반 합성 가능한 RTL 설계 및 FPGA 구현
 - UVM 검증 환경 구축과 Synopsys VCS/Verdi 기반 기능 검증
+- ARM Cortex-M 기반 STM32 임베디드 소프트웨어 개발
 
 ## Technical Skills
 
