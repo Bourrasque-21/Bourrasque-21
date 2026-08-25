@@ -100,7 +100,7 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 | [SPI](https://github.com/Bourrasque-21/SPI) | SPI Master/Slave RTL 및 AXI4-Lite Register Interface 설계, MicroBlaze SoC·보드 간 통신 통합과 VCS/Verdi 기반 UVM 검증 |
 | [UART](https://github.com/Bourrasque-21/UART) | UART 8N1 RX/TX와 FIFO 기반 비동기 직렬 통신 RTL 설계 및 VCS/Verdi 기반 UVM frame 검증 |
 | [RAM](https://github.com/Bourrasque-21/RAM) | Read-First/No-Change Single-Port Synchronous RAM RTL 설계 및 VCS/Verdi 기반 UVM read/write 검증 |
-| [Digital System](https://github.com/Bourrasque-21/DIGITAL_SYS) | Stopwatch/Clock, SR04, DHT11, 7-Segment를 통합한 멀티모드 센서 시스템 및 UART ASCII 명령 기반 PC 제어·Watchdog Timer 구현 |
+| [FPGA Multi-Peripheral Control System](https://github.com/Bourrasque-21/DIGITAL_SYS) | Stopwatch/Clock, SR04, DHT11, 7-Segment를 통합한 멀티모드 센서 시스템 및 UART ASCII 명령 기반 PC 제어·Watchdog Timer 구현 |
 | High-Efficiency Class-A Audio Amplifier | 신호 선형성을 유지하며 전력 효율을 개선하고 Coupling capacitor 총용량 최소화 |
 | Wheelchair Posture Control Device (Capstone) | 좌석 균형 유지 장치의 회로 설계, 센서 데이터 처리 및 제어 알고리즘 구현 |
 
