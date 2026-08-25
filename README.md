@@ -56,11 +56,11 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 
 ### [Driver Monitoring System](https://github.com/Bourrasque-21/driver_monitoring_system)
 
-운전자 눈 상태와 눈 위치를 분석하기 위한 머신러닝 모델 실험 및 배포 파이프라인입니다.
+운전자의 눈 위치와 눈 상태를 분석하기 위한 비전 모델을 설계하고, 하이퍼파라미터 최적화를 통해 최종 모델을 선정한 프로젝트입니다.
 
-- MobileNetV3 및 YOLOv8 분류 모델 비교
-- 회전 증강 기반 미세조정과 눈 위치 탐지
-- ONNX 모델 변환 및 TensorRT 벤치마크
+- YOLOv8n 기반 눈 위치 탐지 모델 설계
+- MobileNetV3 및 YOLOv8n-cls 기반 눈 상태 분류 후보 모델 설계
+- TPE 베이지안 최적화 알고리즘을 활용한 하이퍼파라미터 탐색 및 최적 비전 모델 선정
 
 ## Project Index
 
@@ -71,7 +71,7 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 | [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core) | AES-256-GCM TX/RX RTL 설계 및 NIST KAT 검증 |
 | [Rolling-Shutter OCC](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC) | Basys3·OV7670 기반 OOK/Manchester 광통신 송수신 설계 |
 | [RISC-V RV32I MCU](https://github.com/Bourrasque-21/RV32I_mcu) | RV32I Multi-cycle CPU와 APB Master 설계, MMIO 방식 Peripheral 구성 |
-| [Driver Monitoring System](https://github.com/Bourrasque-21/driver_monitoring_system) | 눈 상태·위치 분석 머신러닝 및 배포 파이프라인 |
+| [Driver Monitoring System](https://github.com/Bourrasque-21/driver_monitoring_system) | YOLOv8n 눈 위치 탐지 및 TPE 기반 눈 상태 분류 모델 최적화 |
 | [Piano to Score](https://github.com/Bourrasque-21/piano_to_score) | 피아노 오디오 자동 악보화 연구 아카이브 |
 | [AES128 SoC System](https://github.com/Bourrasque-21/AES128-soc-system) | AES-128 SoC 설계 |
 | [RV32I Single-Cycle](https://github.com/Bourrasque-21/RV32I_mcu/tree/main/single_cycle) | 싱글사이클 RV32I CPU RTL 설계 |
