@@ -17,19 +17,10 @@
 
 ## Tech Stack
 
-<p>
-  <img src="https://img.shields.io/badge/SystemVerilog-5C2D91?style=flat-square" alt="SystemVerilog" />
-  <img src="https://img.shields.io/badge/Verilog-2F74C0?style=flat-square" alt="Verilog" />
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/RISC--V-283272?style=flat-square&logo=riscv&logoColor=white" alt="RISC-V" />
-  <img src="https://img.shields.io/badge/UVM-6A5ACD?style=flat-square" alt="UVM" />
-  <img src="https://img.shields.io/badge/Synopsys%20VCS-7B1FA2?style=flat-square" alt="Synopsys VCS" />
-  <img src="https://img.shields.io/badge/Verdi-00897B?style=flat-square" alt="Verdi" />
-  <img src="https://img.shields.io/badge/FPGA-E34F26?style=flat-square" alt="FPGA" />
-  <img src="https://img.shields.io/badge/Xilinx%20Vivado-E01F27?style=flat-square" alt="Xilinx Vivado" />
-  <img src="https://img.shields.io/badge/Vitis%20IDE-ED1C24?style=flat-square" alt="Vitis IDE" />
-</p>
+- **HDL / Programming:** Verilog, SystemVerilog, VHDL, C, Python
+- **Design / Implementation:** Vivado, Vitis IDE, PSpice, Cadence Virtuoso
+- **Verification:** UVM, Synopsys VCS, Verdi
+- **Architecture / Platform:** FPGA, RISC-V, MicroBlaze
 
 ## Featured Projects
 
