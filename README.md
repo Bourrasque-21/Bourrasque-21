@@ -1,4 +1,4 @@
-# 하지훈 | Ha Ji Hoon
+# 하지훈 | Ji Hoon Ha
 
 **FPGA · RTL Design · Design Verification**
 
