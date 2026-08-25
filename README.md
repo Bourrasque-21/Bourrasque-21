@@ -91,8 +91,9 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 **대한상공회의소 서울기술교육센터** · 2026.01 – 2026.08 · 980시간
 
 - Verilog HDL 기반 RTL 설계 및 FPGA 구현
-- SystemVerilog/UVM 기반 RTL 검증 환경 구축 및 시뮬레이션
-- C 프로그래밍, 머신러닝·AI 비전 영상처리 및 하드웨어 시스템 통합
+- SystemVerilog/UVM 기반 RTL 기능 검증 및 시뮬레이션
+- ARM Cortex-M 기반 STM32 임베디드 소프트웨어 개발
+- 머신러닝·AI 비전 영상처리 및 하드웨어 시스템 통합
 
 ### 연구 보조 활동
 
