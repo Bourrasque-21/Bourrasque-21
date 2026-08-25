@@ -45,7 +45,6 @@ SystemVerilog RTL 설계 · UVM 기반 검증 · FPGA/SoC 시스템 통합
 
 Rolling-Shutter OCC 자격증명 전달부터 FPGA 영상 기밀성 보호, Jetson 기반 MITM(Man-in-the-Middle) 공격, 수신단 무결성 검증 및 차단까지 통합한 팀 프로젝트입니다.
 
-- SystemVerilog · C · Python · Vivado · Vitis IDE
 - Zybo Z7-20, NVIDIA Jetson Orin Nano, Pcam 5C, Basys 3 및 OV7670 활용
 - Zybo Z7-20 PL의 DDR 기록 전 AES-256-GCM 암호화 및 RX 인증 전 평문 외부 방출 차단
 - Jetson 기반 MITM 패킷 변조·Replay 공격 및 관찰 환경 통합
@@ -58,7 +57,6 @@ Rolling-Shutter OCC 자격증명 전달부터 FPGA 영상 기밀성 보호, Jets
 
 OV7670 카메라로 녹색 마커를 추적하고, 허공에 그린 궤적을 FPGA에서 실시간 합성하는 시스템을 구현한 팀 프로젝트입니다.
 
-- SystemVerilog · Python · Vivado · UVM
 - Basys 3·OV7670 기반 FPGA 영상처리와 VGA·UART·Python UI 통합
 - 녹색 마커 검출과 좌표 평활화, Bresenham 선 보간 및 브러시 렌더링
 - 64라인 링버퍼로 BRAM 사용률을 96%에서 72%로 줄이고 640×480 영상 재구성
