@@ -41,7 +41,7 @@ SystemVerilog RTL 설계 · UVM 기반 검증 · FPGA/SoC 시스템 통합
 
 ## Featured Projects
 
-<a href="https://github.com/Rheinluft/AES256-GCM-Security-System"><img src="assets/AES256_GCM_GitHub_Banner.png" width="800" alt="FPGA AES-256-GCM Security System" /></a>
+<a href="https://github.com/Rheinluft/AES256-GCM-Security-System"><img src="assets/AES256_GCM_GitHub_Banner.png" width="680" alt="FPGA AES-256-GCM Security System" /></a>
 
 Rolling-Shutter OCC 자격증명 전달부터 FPGA 영상 기밀성 보호, Jetson 기반 MITM(Man-in-the-Middle) 공격, 수신단 무결성 검증 및 차단까지 통합한 팀 프로젝트입니다.
 
@@ -53,7 +53,7 @@ Rolling-Shutter OCC 자격증명 전달부터 FPGA 영상 기밀성 보호, Jets
 - OpenSSL golden 기준 C/RTL 각 10,000개 벡터 일치 및 순수 C 대비 최대 2.34배 AES-256 하드웨어 가속 검증
 - [Rolling-Shutter OCC 송수신기](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC)의 OOK·Manchester 광통신 및 자격증명·CRC 검증
 
-<a href="https://github.com/Bourrasque-21/VGA_AIR_DRAWING"><img src="assets/Air_Drawing_GitHub_Banner.png" width="800" alt="VGA Air Drawing" /></a>
+<a href="https://github.com/Bourrasque-21/VGA_AIR_DRAWING"><img src="assets/Air_Drawing_GitHub_Banner.png" width="680" alt="VGA Air Drawing" /></a>
 
 OV7670 카메라로 녹색 마커를 추적하고, 허공에 그린 궤적을 FPGA에서 실시간 합성하는 시스템을 구현한 팀 프로젝트입니다.
 
