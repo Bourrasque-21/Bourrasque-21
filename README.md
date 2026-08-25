@@ -84,6 +84,28 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 - MobileNetV3 및 YOLOv8n-cls 기반 눈 상태 분류 후보 모델 설계
 - TPE 베이지안 최적화 알고리즘을 활용한 하이퍼파라미터 탐색 및 최적 비전 모델 선정
 
+## Experience & Education
+
+### 온디바이스 AI 시스템반도체 설계 교육
+
+**대한상공회의소 서울기술교육센터** · 2026.01 – 2026.08 · 980시간
+
+- Verilog HDL 기반 RTL 설계 및 FPGA 구현
+- SystemVerilog/UVM 기반 RTL 검증 환경 구축 및 시뮬레이션
+- C 프로그래밍, 머신러닝·AI 비전 영상처리 및 하드웨어 시스템 통합
+
+### 연구 보조 활동
+
+**Hong Kong Polytechnic University, Hong Kong** · 2025.04
+
+- 실험 참여자의 신체 및 설문 데이터 수집
+- 데이터 정리·분류 및 기초 통계 자료 작성
+
+## Awards
+
+- **우수 리포트 공모전 장려상** — 홍익대학교, 2018.06
+  - 「빅데이터 기대효과와 위험성」: 빅데이터 활용 사례와 기대 효과, 잠재적 위험 및 개선 방안 분석
+
 ## Project Index
 
 | Project | Description |
@@ -102,6 +124,8 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 | [UART](https://github.com/Bourrasque-21/UART) | UART 송수신 모듈 설계 및 검증 |
 | [RAM](https://github.com/Bourrasque-21/RAM) | RAM 설계 및 검증 |
 | [Digital System](https://github.com/Bourrasque-21/DIGITAL_SYS) | Stopwatch/Clock, SR04, DHT11, 7-Segment를 통합한 멀티모드 센서 시스템 및 UART ASCII 명령 기반 PC 제어·Watchdog Timer 구현 |
+| High-Efficiency Class-A Audio Amplifier | 신호 선형성을 유지하며 전력 효율을 개선하고 Coupling capacitor 총용량 최소화 (2022.08 – 2022.12) |
+| Wheelchair Posture Control Device (Capstone) | 좌석 균형 유지 장치의 회로 설계, 센서 데이터 처리 및 제어 알고리즘 구현 (2023.03 – 2023.12) |
 
 <p align="center">
   <a href="https://github.com/Bourrasque-21?tab=repositories">View all repositories →</a>
