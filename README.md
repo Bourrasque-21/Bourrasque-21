@@ -1,4 +1,4 @@
-<h1 align="center">Bourrasque-21</h1>
+<h1 align="center">하지훈 | Ha Ji Hoon</h1>
 
 <p align="center">
   FPGA · Digital Logic · Embedded System
@@ -40,9 +40,9 @@ Rolling-Shutter OCC 자격증명 전달부터 FPGA 영상 암호화, Jetson 중�
 - SystemVerilog · C · Python · Vivado · Vitis IDE
 - Zybo Z7-20, NVIDIA Jetson Orin Nano, Pcam 5C, Basys 3 및 OV7670 활용
 - Zybo TX/RX의 AES-256-GCM 영상 암복호화와 Jetson 기반 공격·관찰 환경 통합
-- 개인 설계: [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core)의 TX/RX RTL
+- [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core)의 TX/RX RTL 설계
 - AES와 GHASH의 중첩 실행 및 NIST AES-256 KAT 405개 통과
-- 개인 설계: [Rolling-Shutter OCC 송수신기](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC)의 OOK·Manchester 광통신 및 자격증명·CRC 검증
+- [Rolling-Shutter OCC 송수신기](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC)의 OOK·Manchester 광통신 및 자격증명·CRC 검증
 
 ### [VGA Air Drawing](https://github.com/Bourrasque-21/VGA_AIR_DRAWING)
 
@@ -77,8 +77,8 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 | --- | --- |
 | [FPGA AES-256-GCM Security System](https://github.com/Rheinluft/AES256-GCM-Security-System) | OCC 자격증명, FPGA 영상 암호화, Jetson 공격 및 RX 인증·차단을 통합한 팀 프로젝트 |
 | [VGA Air Drawing](https://github.com/Bourrasque-21/VGA_AIR_DRAWING) | FPGA 기반 실시간 영상처리 및 에어 드로잉 시스템 |
-| [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core) | 개인 AES-256-GCM TX/RX RTL 설계 및 NIST KAT 검증 |
-| [Rolling-Shutter OCC](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC) | 개인 Basys3·OV7670 기반 OOK/Manchester 광통신 송수신 설계 |
+| [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core) | AES-256-GCM TX/RX RTL 설계 및 NIST KAT 검증 |
+| [Rolling-Shutter OCC](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC) | Basys3·OV7670 기반 OOK/Manchester 광통신 송수신 설계 |
 | [RISC-V RV32I MCU](https://github.com/Bourrasque-21/RV32I_mcu) | RV32I Multi-cycle CPU와 APB Master 설계, MMIO 방식 Peripheral 구성 |
 | [Driver Monitoring System](https://github.com/Bourrasque-21/driver_monitoring_system) | 눈 상태·위치 분석 머신러닝 및 배포 파이프라인 |
 | [Piano to Score](https://github.com/Bourrasque-21/piano_to_score) | 피아노 오디오 자동 악보화 연구 아카이브 |
