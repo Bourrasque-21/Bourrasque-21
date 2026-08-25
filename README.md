@@ -46,10 +46,11 @@ Rolling-Shutter OCC 자격증명 전달부터 FPGA 영상 기밀성 보호, Jets
 
 - SystemVerilog · C · Python · Vivado · Vitis IDE
 - Zybo Z7-20, NVIDIA Jetson Orin Nano, Pcam 5C, Basys 3 및 OV7670 활용
-- AES-256-GCM 기반 영상 기밀성 보호 및 수신단 무결성 검증
+- Zybo Z7-20 PL의 DDR 기록 전 AES-256-GCM 암호화 및 RX 인증 전 평문 외부 방출 차단
 - Jetson 기반 MITM 패킷 변조·Replay 공격 및 관찰 환경 통합
 - [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core)의 TX/RX RTL 설계
-- AES와 GHASH의 중첩 실행 및 NIST AES-256 KAT 405개 통과
+- AES와 GHASH의 블록 수준 병렬 처리 및 NIST AES-256 KAT 405개 통과
+- OpenSSL golden 기준 C/RTL 각 10,000개 벡터 일치 및 순수 C 대비 최대 2.34배 AES-256 하드웨어 가속 검증
 - [Rolling-Shutter OCC 송수신기](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC)의 OOK·Manchester 광통신 및 자격증명·CRC 검증
 
 ### [VGA Air Drawing](https://github.com/Bourrasque-21/VGA_AIR_DRAWING)
