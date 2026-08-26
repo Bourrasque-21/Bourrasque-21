@@ -61,7 +61,7 @@ OV7670 카메라로 녹색 마커를 추적하고, 허공에 그린 궤적을 FP
 - 녹색 마커 검출과 좌표 평활화, Bresenham 선 보간 및 브러시 렌더링
 - 64라인 링버퍼로 BRAM 사용률을 96%에서 72%로 줄이고 640×480 영상 재구성
 
-### [RISC-V RV32I MCU](https://github.com/Bourrasque-21/RV32I_mcu)
+<a href="https://github.com/Bourrasque-21/RV32I_mcu"><img src="assets/RV32I_MCU_GitHub_Banner.png" width="600" alt="RISC-V RV32I MCU/SoC Design" /></a>
 
 RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral을 MMIO 방식으로 구성한 MCU/SoC 프로젝트입니다.
 
