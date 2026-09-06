@@ -55,11 +55,13 @@ Rolling-Shutter OCC 자격증명 전달부터 FPGA 영상 기밀성 보호, Jets
 
 <a href="https://github.com/Bourrasque-21/VGA_AIR_DRAWING"><img src="assets/Air_Drawing_GitHub_Banner.png" width="600" alt="VGA Air Drawing" /></a>
 
-OV7670 카메라로 녹색 마커를 추적하고, 허공에 그린 궤적을 FPGA에서 실시간 합성하는 시스템을 구현한 팀 프로젝트입니다.
+OV7670 카메라로 녹색 마커를 추적하고, 이동 궤적을 Basys 3 FPGA에서 카메라 영상과 실시간 합성하는 에어 드로잉 팀 프로젝트입니다.
 
-- Basys 3·OV7670 기반 FPGA 영상처리와 VGA·UART·Python UI 통합
-- 녹색 마커 검출과 좌표 평활화, Bresenham 선 보간 및 브러시 렌더링
-- 64라인 링버퍼로 BRAM 사용률을 96%에서 72%로 줄이고 640×480 영상 재구성
+- 녹색 마커 검출·중심 좌표 계산 및 이동평균 기반 좌표 평활화로 추적 흔들림 완화
+- Bresenham 선 보간과 볼펜·스프레이·캘리그래피·지우개 렌더링을 FPGA RTL로 구현
+- 프레임버퍼를 64라인 링버퍼로 개선해 BRAM 사용률을 96% → 72%로 줄이고, 라인 헤더 기반 PC 재조립으로 640×480 영상 복원
+- VGA 영상 출력과 UART 기반 Python UI를 연동해 도구 설정·배경 정지·이미지 저장 지원
+- VCS/UVM 기반 기준 설계의 주요 9개 모듈 검증 및 정의된 기능 커버리지 100% 달성
 
 <a href="https://github.com/Bourrasque-21/RV32I_mcu"><img src="assets/RV32I_MCU_GitHub_Banner.png" width="600" alt="RISC-V RV32I MCU/SoC Design" /></a>
 
