@@ -43,7 +43,7 @@ SystemVerilog RTL 설계 · UVM 기반 검증 · FPGA/SoC 시스템 통합
 
 <a href="https://github.com/Rheinluft/AES256-GCM-Security-System"><img src="assets/AES256_GCM_GitHub_Banner.png" width="600" alt="FPGA AES-256-GCM Security System" /></a>
 
-Rolling-Shutter OCC 자격증명 전달부터 FPGA 영상 기밀성 보호, Jetson 기반 MITM(Man-in-the-Middle) 공격, 수신단 무결성 검증 및 차단까지 통합한 팀 프로젝트입니다. · [AES·GCM 정리 자료](https://github.com/Rheinluft/AES256-GCM-Security-System/tree/main/DOC/AES_GCM) · [OCC 기술보고서](https://github.com/Rheinluft/AES256-GCM-Security-System/blob/main/DOC/OCC/OCC_롤링셔터_v3_기술보고서.pdf)
+Rolling-Shutter OCC 자격증명 전달부터 FPGA 영상 기밀성 보호, Jetson 기반 MITM(Man-in-the-Middle) 공격, 수신단 무결성 검증 및 차단까지 통합한 팀 프로젝트입니다. ([AES·GCM 정리 자료](https://github.com/Rheinluft/AES256-GCM-Security-System/tree/main/DOC/AES_GCM), [OCC 기술보고서](https://github.com/Rheinluft/AES256-GCM-Security-System/blob/main/DOC/OCC/OCC_롤링셔터_v3_기술보고서.pdf))
 
 - Zybo Z7-20, NVIDIA Jetson Orin Nano, Pcam 5C, Basys 3 및 OV7670 활용
 - Zybo Z7-20 PL의 DDR 기록 전 AES-256-GCM 암호화 및 RX 인증 전 평문 외부 방출 차단
