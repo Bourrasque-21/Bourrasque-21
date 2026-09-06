@@ -48,12 +48,12 @@ SystemVerilog RTL 설계 · UVM 기반 검증 · FPGA/SoC 시스템 통합
 Rolling-Shutter OCC 자격증명 전달부터 FPGA 영상 기밀성 보호, Jetson 기반 MITM(Man-in-the-Middle) 공격, 수신단 무결성 검증 및 차단까지 통합한 팀 프로젝트입니다. ([AES·GCM 정리 자료](https://github.com/Rheinluft/AES256-GCM-Security-System/tree/main/DOC/AES_GCM), [OCC 기술보고서](https://github.com/Rheinluft/AES256-GCM-Security-System/blob/main/DOC/OCC/OCC_롤링셔터_v3_기술보고서.pdf))
 
 - Zybo Z7-20, NVIDIA Jetson Orin Nano, Pcam 5C, Basys 3 및 OV7670 활용
-- Zybo Z7-20 PL의 DDR 기록 전 AES-256-GCM 암호화 및 RX 인증 전 평문 외부 방출 차단
+- Zybo Z7-20 PL의 **DDR 기록 전 AES-256-GCM 암호화** 및 RX **인증 전 평문 외부 방출 차단**
 - Jetson 기반 MITM 패킷 변조·Replay 공격 및 관찰 환경 통합
 - [AES-256-GCM Core](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/AES256_GCM_Core)의 TX/RX RTL 설계
-- AES와 GHASH의 블록 수준 병렬 처리 및 NIST AES-256 KAT 405개 통과
-- OpenSSL golden 기준 C/RTL 각 10,000개 벡터 일치 및 순수 C 대비 최대 2.34배 AES-256 하드웨어 가속 검증
-- [Rolling-Shutter OCC 송수신기](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC)의 OOK·Manchester 광통신 및 자격증명·CRC 검증
+- **AES와 GHASH의 블록 수준 병렬 처리** 및 NIST AES-256 KAT 405개 통과
+- OpenSSL golden 기준 C/RTL 각 10,000개 벡터 일치 및 순수 C 대비 **최대 2.34배 AES-256 하드웨어 가속** 검증
+- [**Rolling-Shutter OCC 송수신기**](https://github.com/Bourrasque-21/aes256-gcm-occ/tree/main/Rolling_Shutter_OCC)의 **OOK·Manchester** 광통신 및 **자격증명·CRC 검증**
 
 <br>
 
@@ -62,10 +62,11 @@ Rolling-Shutter OCC 자격증명 전달부터 FPGA 영상 기밀성 보호, Jets
 OV7670 카메라로 녹색 마커를 추적하고, 이동 궤적을 Basys 3 FPGA에서 카메라 영상과 실시간 합성하는 에어 드로잉 팀 프로젝트입니다.
 
 - 녹색 마커 검출·중심 좌표 계산 및 이동평균 기반 좌표 평활화로 추적 흔들림 완화
-- Bresenham 선 보간과 볼펜·스프레이·캘리그래피·지우개 렌더링을 FPGA RTL로 구현
-- 프레임버퍼를 64라인 링버퍼로 개선해 BRAM 사용률을 96% → 72%로 줄이고, 라인 헤더 기반 PC 재조립으로 640×480 영상 복원
+- **Bresenham 선 보간**과 볼펜·스프레이·캘리그래피·지우개 렌더링을 FPGA RTL로 구현
+- **비동기 FIFO 기반 CDC**로 카메라·VGA 클록 도메인 간 라인 위치·버퍼 정보를 전달
+- 프레임버퍼를 **64라인 링버퍼**로 개선해 **BRAM 사용률을 96% → 72%**로 줄이고, 라인 헤더 기반 PC 재조립으로 640×480 영상 복원
 - VGA 영상 출력과 UART 기반 Python UI를 연동해 도구 설정·배경 정지·이미지 저장 지원
-- VCS/UVM 기반 기준 설계의 주요 9개 모듈 검증 및 정의된 기능 커버리지 100% 달성
+- VCS 환경에서 기준 설계의 **주요 9개 모듈 UVM 검증** 및 정의된 기능 커버리지 100% 달성
 
 <br>
 
@@ -73,10 +74,10 @@ OV7670 카메라로 녹색 마커를 추적하고, 이동 궤적을 Basys 3 FPGA
 
 RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral을 MMIO 방식으로 구성한 MCU/SoC 프로젝트입니다.
 
-- RV32I Multi-cycle CPU 및 APB Master 설계
+- **RV32I Multi-cycle CPU** 및 **APB Master** 설계
 - IF · ID · EX · MEM · WB 단계 기반 제어
 - 4 KB 데이터 RAM과 메모리 맵 설계
-- MMIO 방식의 GPIO, UART, FND Peripheral 구성
+- **MMIO 방식의 GPIO, UART, FND Peripheral 구성**
 - Basys 3 보드에서 동작하도록 설계한 SystemVerilog SoC
 
 ### [Driver Monitoring System](https://github.com/Bourrasque-21/Monitor-drowsy-driving)
@@ -85,7 +86,7 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 
 - YOLOv8n 기반 눈 위치 탐지 모델 설계
 - MobileNetV3 및 YOLOv8n-cls 기반 눈 상태 분류 후보 모델 설계
-- TPE 베이지안 최적화 알고리즘을 활용한 하이퍼파라미터 탐색 및 최적 비전 모델 선정
+- **TPE 베이지안 최적화** 알고리즘을 활용한 하이퍼파라미터 탐색 및 최적 비전 모델 선정
 
 ## Project Index
 
