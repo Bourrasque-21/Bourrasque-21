@@ -80,6 +80,8 @@ RV32I Multi-cycle CPU와 APB Master를 설계하고, GPIO·UART·FND Peripheral�
 - **MMIO 방식의 GPIO, UART, FND Peripheral 구성**
 - Basys 3 보드에서 동작하도록 설계한 SystemVerilog SoC
 
+<br>
+
 ### [Driver Monitoring System](https://github.com/Bourrasque-21/Monitor-drowsy-driving)
 
 **TPE 베이지안 최적화**로 하이퍼파라미터를 탐색하고, 운전자 눈 위치 탐지·눈 상태 분류에 사용할 최종 비전 모델을 선정한 프로젝트입니다.
